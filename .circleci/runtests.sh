@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-py.test --cov=riopg --strict -v
+py.test --cov=trio_extras --strict -v
 codecov
